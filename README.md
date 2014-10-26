@@ -26,11 +26,11 @@ The heirarchy at this point should be :
 The run_analysis.R script has a function named analyze which has the parameter path
 * @path - The path of the current working directory i.e. "/home/.../my_project_folder/"
 
-Step 4: Open R and set the current working directory using setwd
+Step 4: Open R and set the current working directory using 'setwd'
 
-Step 5: Source the R script using source("run_analysis.R")
+Step 5: Source the R script using 'source("run_analysis.R")'
 
-Step 6: Type tData <- analyze("/home/.../my_project_folder/")
+Step 6: Type 'tData <- analyze("/home/.../my_project_folder/")''
 
 You will get the resulting tidy data as "tData"
 
@@ -38,9 +38,9 @@ You will get the resulting tidy data as "tData"
 ##Internal working of run_analysis.R
 
 ###Merge step
-Once you have called analyze(path) in the manner shown above;
+Once you have called 'analyze(path)' in the manner shown above;
 
-The script will pick up the training files and the test files in the .txt format into data frames using the read.table method as shown in the code.
+The script will pick up the training files and the test files in the .txt format into data frames using the 'read.table' method as shown in the code.
 
 First, it merges the training and test files corresponding to features
 
@@ -65,7 +65,7 @@ As in the case of feature variable extraction, a map(a simple data frame in this
 Then, the "Activity" column of the "data" data frame is traversed and each Activity code is replaced by its corresponding label(not directly but by making a character vector "activityLabel" and replacing the entire column afterwards)
 
 ###creating an independent tidy data set with the average of each variable for each activity and each subject.
-This step uses the melt function of the reshape2 package and later on dcast to find the averages using the code shown in the script.
+This step uses the 'melt' function of the reshape2 package and later on 'dcast' to find the averages using the code shown in the script.
 
 The resulting tidy data set is returned from the analyze function.
 
