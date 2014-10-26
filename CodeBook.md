@@ -34,13 +34,14 @@ The Activity column(sourced in "train/y_train.txt" and "test/y_train.txt") after
  * Data Type: chr
  * Domain   : 
    * WALKING
-   * WALKING_UPSTAIRS
-   * WALKING_DOWNSTAIRS
-   * SITTING
-   * STANDING
-   * LAYING
+    * WALKING_UPSTAIRS
+    * WALKING_DOWNSTAIRS
+    * SITTING
+    * STANDING
+    * LAYING
 * Others   - All the other variable names are taken from the "features.txt" file
  * Full Description in "features_info.txt" in the source dataset zip file
+ 
 **Note**: Not all the variable names in features.txt were present in the end. Only variables containing mean and standard deviation measures were preserved.
 **Note**: The variables containg meanFreq measures and angle variables were not taken. Detailed reasons given [here](https://class.coursera.org/getdata-008/forum/thread?thread_id=239#post-1015).
   
