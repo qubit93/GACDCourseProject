@@ -17,9 +17,9 @@ Step 2: Download and extract the zip file mentioned above in this folder.
 Step 3: Download the run_analysis.R file in my_project_folder.
 
 The heirarchy at this point should be :
-*my_project_folder/
-**UCI HAR Dataset/
-**run_analysis.R
+* my_project_folder/
+** UCI HAR Dataset/
+** run_analysis.R
 
 The run_analysis.R script has a function named analyze which has the parameter path
 * @path - The
