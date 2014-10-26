@@ -3,11 +3,10 @@ GACDCourseProject
 
 This is the course project for the Getting and Cleaning Data Course
 
-The R script **run_analysis.R** cleans the Samsung smartphone dataset. A full description is available at the site where the data was obtained:
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The R script **run_analysis.R** cleans the Samsung smartphone dataset. 
+A full description of the data used in this project can be found at [The UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones )
 
-Here is the data for the project:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The source data for this project can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 
 ###Instructions for use:
@@ -34,10 +33,10 @@ The run_analysis.R script has a function named analyze which has the parameter p
 
 You will get the resulting tidy data as "tData"
 
+------------------------------
 
 
-
-###Internal working of run_analysis.R
+###Internal working of run_analysis.R:
 
 ####Merge step
 Once you have called `analyze(path)` in the manner shown above;
