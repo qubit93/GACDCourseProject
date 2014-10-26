@@ -35,6 +35,8 @@ The run_analysis.R script has a function named analyze which has the parameter p
 You will get the resulting tidy data as "tData"
 
 
+
+
 ###Internal working of run_analysis.R
 
 ####Merge step
