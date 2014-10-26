@@ -27,10 +27,10 @@ For each record in the dataset it is provided:
 The Activity column(sourced in "train/y_train.txt" and "test/y_train.txt") after merging was replaced by the entries(labels) in "activity_labels.txt"
 
 ##Variables Names introduced
-Subject  - Variable name given to the column containing the merged data of "subject_test.txt" and "subject_train.txt"
+*Subject  - Variable name given to the column containing the merged data of "subject_test.txt" and "subject_train.txt"
  *Data Type: int
  *Domain   : 1-30
-Activity - Variable name given to the column containing the merged data of "y_train.txt" and "y_test.txt"
+*Activity - Variable name given to the column containing the merged data of "y_train.txt" and "y_test.txt"
  *Data Type: chr
  *Domain   : 
    *WALKING
@@ -39,15 +39,16 @@ Activity - Variable name given to the column containing the merged data of "y_tr
    *SITTING
    *STANDING
    *LAYING
-Others   - All the other variable names are taken from the "features.txt" file
+*Others   - All the other variable names are taken from the "features.txt" file
  *Full Description in "features_info.txt" in the source dataset zip file
 **Note**: Not all the variable names in features.txt were present in the end. Only variables containing mean and standard deviation measures were preserved.
 **Note**: The variables containg meanFreq measures and angle variables were not taken. Detailed reasons given [here](https://class.coursera.org/getdata-008/forum/thread?thread_id=239#post-1015).
   
+  
   There are 66 such variables:
   
-  1.tBodyAcc-mean()-X
-  2.tBodyAcc-mean()-Y
+  1. tBodyAcc-mean()-X
+  2. tBodyAcc-mean()-Y
   3.tBodyAcc-mean()-Z
   4.tBodyAcc-std()-X
   5.tBodyAcc-std()-Y
